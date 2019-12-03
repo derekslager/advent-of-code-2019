@@ -5,8 +5,7 @@
 ;;; part 1
 (defn fuel-required [mass]
   (-> mass
-      (/ 3)
-      Math/floor
+      (quot 3)
       (- 2)
       int))
 
