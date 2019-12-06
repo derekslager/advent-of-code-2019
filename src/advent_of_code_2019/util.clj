@@ -9,5 +9,5 @@
 (defn numbers [resource-name]
   (->> (io/resource resource-name)
        slurp
-       (re-seq #"\d+")
+       (re-seq #"-?\d+")
        (map #(Integer/parseInt %))))
