@@ -1,5 +1,8 @@
 {:deps
  {org.clojure/math.combinatorics {:mvn/version "0.1.6"}
+  org.clojure/core.async {:mvn/version "0.6.532"}
+  org.clojure/tools.logging {:mvn/version "0.5.0"}
+  org.clojure/clojure {:mvn/version "1.10.1"}
   ubergraph {:mvn/version "0.8.1"}}
 
  :paths
